@@ -1,4 +1,7 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
+
+import 'constants.dart';
 
 void main() => runApp(XylophoneApp());
 
@@ -7,9 +10,7 @@ class XylophoneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: SafeArea(
-          child: Container(),
-        ),
+        body: KeyButton(),
       ),
     );
   }
